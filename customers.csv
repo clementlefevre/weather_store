@@ -1,0 +1,107 @@
+Customer;Master Devices ID;Link / Base-Directory;Base-VM;Context-Path;DB-Name;DB-Server;DB-User;DB-PWD;FTP-Server;FTP-User;FTP-PWD;Dir;FTP-Server;FTP-User;FTP-PWD;Dir;Open Installation;Status;Priority;Comments
+Swiss Demo;;switzerland.dilax.com;dwe01;switzerland;DWE_SWITZERLAND_2014;postgresql05;dwe-switzerland;CUUt+N3@vx;ftp2.dilax.com;switzerland;Sx57!#BLN2eRN;/rawdata;;;;;;ON;;
+Ara Shoes;26;arashoes.dilax.com;dwe01;arashoes;DWE_ARASHOES_2012;postgresql03;dwe-arashoes;pL?XRPE4$M93;ftp2.dilax.com;arashoes12;arashoes12!?#;/rawdata;;;;;;ON;3;
+Marc Aurel Textil GmbH;27;marcaurel.dilax.com;dwe01;marcaurel;DWE_MARCAUREL_2012;postgresql03;dwe-marcaurel;jRyfE=@_3svK;ftp2.dilax.com;marcaurel12;marcaurel12!?#;/rawdata;;;;;;ON;3;
+Ravensburger;28;ravensburger.dilax.com;dwe01;ravensburger;DWE_Ravensburger_2012;postgresql05;dwe-ravensburger;02OLo8VJ2UzA8;ftp2.dilax.com;ravensburger12;ravensburger12!?#;/rawdata;;;;;;ON;3;
+expoHannover;34;expo.dilax.com;dwe01;expo;DWE_EXPO_2011;postgresql05;dwe-expo;R@tr-d7d#te?;ftp2.dilax.com; expo;expoHa!2#;/;;;;;;ON;3;
+Sanetta;25;sanetta.dilax.com;dwe01;sanetta;DWE_SANETTA_2012;postgresql03;dwe-sanetta;ovP-Qu@7Wo@W;ftp2.dilax.com;sanetta12;sanetta12!?#;/rawdata;;;;;;ON;3;
+Takko;18;takko.dilax.com;dwe02;takko;DWE_TAKKO_2011 ;postgresql01;dwe-takko;jwJet#9?4DJz;ftp2.dilax.com;takko;qceteqp6amwm;/;;;;;;ON;;
+AirportDUS;17;airportdus.dilax.com;dwe03;airportdus;DWE_AIRPORTDUS_2012;postgresql05;dwe-airportdus;sF#T78GmPn?+;ftp2.dilax.com;user1: airportdus;user1: airportdus!?#;user1: /rawdata;;;;;true;ON;;?
+GANT;9;gant.dilax.com;dwe03;gant;DWE_GANT_2013;postgresql03;dwe-gant;C5wLVRawQZt7s;ftp2.dilax.com;gant;WkWc!inBLN4gnt;/rawdata;;;;;;ON;1;
+GriesDeco;36;griesdeco.dilax.com;dwe03;griesdeco;DWE_GRIESDECO_2012;postgresql05;dwe-griesdeco;-LNC3#NoDwUu;ftp2.dilax.com;depot;depot2012!#;/rawdata;ftp2.dilax.com;griesdecocustomer;eewc7o0TDae;/;;ON;1;
+Hamburger Hochbahn;21;hhase.dilax.com;dwe03;hhase;DWE_HHASE_2011;postgresql01;dwe-hhase;ksBuDve$8zej;ftp2.dilax.com;hhase;hhaseHH!2#;/;;;;;;ON;;
+LLOYD Shoes Retail GmbH;57;lloyd.dilax.com;dwe03;lloyd;DWE_LLOYD_2014;postgresql05;dwe-lloyd;b@kf4FVu+U6e;ftp2.dilax.com;lloyd;37lSrG_c44#!73;/rawdata;;;;;;ON;1;
+Lübeck Travemünde - Tourist Information;30;touristinfotravem.dilax.com;dwe03;touristinfotravem;DWE_TOURISTINFOTRAVEM_2013;postgresql01;dwe-touristinfotrave;t@-4md-Fa7Bn;ftp2.dilax.com; touristinfotravem;WkWc!inBLN4travem; /rawdata;;;;;;ON;3;
+Modehaus Götz;55;goetz.dilax.com;dwe03;goetz;DWE_GOETZ_2014;postgresql05;dwe-goetz;GJ%uVWoMww93;ftp2.dilax.com;goetz;246MhG-tz%33;/rawdata;;;;;;ON;;
+Rostocker Hof;24;galerierostockerhof.dilax.com;dwe03;galerierostockerhof;DWE_GALERIEROSTOCKERHOF_2013;postgresql03;dwe-galerierostocker;M+7VNs%avXXF;ftp2.dilax.com;galerierostockerhof;Wkwc!inROST4hof;/rawdata;;;;;;ON;;
+Groupe E;83;groupe-e-plus.dilax.com;dwe04;groupe-e-plus;DWE_GROUPEEPLUS_2014;postgresql05;dwe-groupeeplus;Md4Y?qKknTGB;ftp2.dilax.com;econnect14;NPfGECiJ14!;/rawdata;;;;;;ON;3;
+SMB (Staatliche Museen zu Berlin);70;smb.dilax.com;dwe04;smb;DWE_SMB_2013;postgresql05;dwe-smb;fTPUKoh3=6Vc;ftp2.dilax.com; asisiper (reused user of project Asisi);ASISIPer!2#;/rawdata;;;;;;ON;;
+Städel Museum Frankfurt/Main;46;staedelmuseum.dilax.com;dwe04;staedelmuseum;DWE_STAEDELMUSEUM_2013;postgresql03;dwe-staedelmuseum;Bgj7RjsrhoG#;ftp2.dilax.com;staedelmum;fdkSM!#1pz1r;/rawdata;;;;;;ON;;
+Sutor Schuh GmbH;7;sutor.dilax.com;dwe04;sutor;DWE_SUTOR_2013;postgresql03;dwe-sutor;#NAME?;ftp2.dilax.com;sutor;Sutor!?#;/rawdata;;;;;;ON;;
+Gamestop;81;gamestop.dilax.com;dwe02;gamestop;DWE_GAMESTOP_2014;postgresql01;dwe-gamestop;pGM$zp4$TcB+;ftp2.dilax.com;gamestop;GSrger43te34rtg54wgE$;/rawdata;;;;;;ON;1;
+Hugendubel (Paragon);84;hugendubel.dilax.com;dwe02;hugendubel;DWE_HUGENDUBEL_2014;postgresql01;dwe-hugendubel;Ymv@3uUqnscU;ftp2.dilax.com;hugendubel;324rSG6z3eEREg111;/rawdata;;;;;;ON;1;
+HBB;91;hbb.dilax.com;dwe02;hbb;DWE_HBB_2015;postgresql01;dwe-hbb;uL4+u8MUauXi;ftp2.dilax.com;hbb;zN$k5vF)y=Dwkam;/rawdata;;;;;;ON;;"former ""Bauwens"""
+MEC;20;mec.dilax.com;dwe04;mec;DWE_MEC_2012;postgresql03;dwe-mec;qgZhPiOXrBtca;ftp2.dilax.com;tkcottbus12;tkcottbus12!?#;/rawdata;;;;;;ON;;
+1875;76;1875.dilax.com;dwe04;1875;DWE_1875_2014;postgresql05;dwe-1875;kRRUEwgQYtIvT;ftp2.dilax.com;tourelle15;DPlT15whkD!;/rawdata;;;;;;ON;;former 'Tourbillon Center'
+Traisenpark;43;traisenpark.dilax.com;dwe04;traisenpark;DWE_TRAISENPARK_2013;postgresql03;dwe-traisenpark;C-F7C6?#E7vc;ftp2.dilax.com;traisenpark13;krapnesiart13!?#;/rawdata;;;;;;ON;3;
+Tourist Information Hamburg;47;hhtouristinfo.dilax.com;dwe04;hhtouristinfo;DWE_HHTOURISTINFO_2013;postgresql03;dwe-hhtouristinfo;pkJe=yCEyX6e;ftp2.dilax.com;hhtourist;dzHHuis#dix.80eu;/rawdata;;;;;;ON;3;
+Landeshauptstadt Hannover - Museen;31;lhhannovermuseen.dilax.com;dwe05;lhhannovermuseen;DWE_LHHANNOVERMUSEEN_2013;postgresql01;dwe-lhhannovermuseen;P4ezvEb_BDRJ;ftp2.dilax.com;hannovermuseen;WkWc!inBLN4lhhanov;/rawdata/;;;;;;ON;3;
+Modehaus Oberpaur;22;oberpaur.dilax.com;dwe05;oberpaur;DWE_OBERPAUR_2013;postgresql03;dwe-oberpaur;q64+NhcGUWF@;ftp2.dilax.com;oberpaur;WkWc!inBLN4opaur;/rawdata;;;;;;ON;;
+Nordsee;64;nordsee.dilax.com;dwe05;nordsee;DWE_NORDSEE_2014;postgresql05;dwe-nordsee;DBnEesK09##72!;ftp2.dilax.com;nordsee;mYm/8v9Z;/rawdata;;;;;true;ON;;
+PALMERS;3;palmers.dilax.com;dwe05;palmers;DWE_PALMERS_2013;postgresql03;dwe-palmers;n#B6MHoqU6cL;ftp2.dilax.com;palmers;sremlap13!?#;/rawdata;;;;;;ON;3;
+Pays Voironnais;75;voiron.dilax.com;dwe05;voiron;DWE_VOIRON_2014;postgresql05;dwe-voiron;4ORZUzYp7juSO;ftp2.dilax.com;voirons;zB8YL6+V;/rawdata;;;;;;ON;;
+Platea (Madrid, Spain);61;platea.dilax.com;dwe05;platea;DWE_PLATEA_2014;postgresql03;dwe-platea;lJd3fGcvUeFFc;ftp2.dilax.com;platea;hCS8q=Tb;/rawdata;;;;;true;ON;;
+Heinemann;5;gh.dilax.com;dwe20;gh;DWE_GH_2011;postgresql03;dwe-gh;?HjxRu4xie4N;piano.gebr-heinemann.de;dilax; !$0wf3)(!axT;/rawdata;;;;;;ON;;
+myToys;39;mytoys.dilax.com;dwe06;mytoys;DWE_MYTOYS_2014;postgresql03;dwe-mytoys;oh3f8jTKo_UC;ftp2.dilax.com;mytoyscustomer;4KK8vw+my;/csvreports;;;;;;ON;;
+Musée Rodin;119;museerodin.dilax.com;dwe06;museerodin;DWE_MUSEERODIN_2015;postgresql03;dwe-museerodin;8qrdcU_b?hzv;ftp2.dilax.com;rodin;Musee2Rodin;/rawdata;;;;;;ON;;
+CLINTON;48;clinton.dilax.com;dwe07;clinton;DWE_CLINTON_2013;postgresql05;dwe-clinton;e9v%wFDxrxsG;ftp2.dilax.com;clinton;clAB#12sf1q;/rawdata;;;;;;ON;;
+Closed;8;closed.dilax.com;dwe07;closed;DWE_CLOSED_2013;postgresql05;dwe-closed;6EVAqWxOsX2Ao;ftp2.dilax.com;closed;WkWc!inBLN4clsd;/rawdata;;;;;;ON;;
+Corio Königsgalerie;23;coriokg.dilax.com;dwe07;coriokg;DWE_CORIOKG_2011;postgresql03;dwe-coriokg;%zeK4BpgBf$R;ftp2.dilax.com;coriokg;coriokg!2#;/;;;;;;ON;;
+Porsche Design;10;porsche.dilax.com;dwe07;porsche;DWE_PORSCHE_2013;postgresql05;dwe-porsche;qQRndt-%bwu6;ftp2.dilax.com;porsche;Wkwc!inPOR4sche;/rawdata;;;;;;ON;1;
+Visit Berlin;29;visitberlin.dilax.com;dwe07;visitberlin;DWE_BERLINVISIT_2012;postgresql01;dwe-visitberlin;9dj9efiraH?+;ftp2.dilax.com;berlinvisit12;berlinvisit12!?#;/rawdata;;;;;true;ON;3;DWE_BERLINVISIT_2012-> DWE_VISITBERLIN_2012
+Walle Center;62;wallecenter.dilax.com;dwe07;wallecenter;DWE_WALLECENTER_2013;postgresql03;dwe-wallecenter;Yy~Dq9w#x8aM;ftp2.dilax.com;wallecenter;wcBr!#91sf2w;/rawdata;;;;;;ON;;
+Werder Park;56;werderpark.dilax.com;dwe07;werderpark;DWE_WERDERPARK_2014;postgresql05;dwe-werderpark;@jy89y~KPU+a;ftp2.dilax.com;werderpark;246wpBpdm-b1%17;/rawdata;;;;;;ON;;
+Coop;86;coop.dilax.com;dwe08;coop;DWE_COOP_2014;postgresql01;dwe-coop;Jr5tosD2gMxow;ftp2.dilax.com;coop;pFrduso31!+p22;/rawdata;;;;;;ON;;
+Fashion Fish;11;fashionfish.dilax.com;dwe08;fashionfish;DWE_FASHIONFISH_2013;postgresql01;dwe-fashionfish;Lzwp-g99LNKw;ftp2.dilax.com;fashionfish13;fashionfish13!?#;/rawdata;;;;;;ON;;
+Visilab;74;visilab.dilax.com;dwe08;visilab;DWE_VISILAB_2014;postgresql01;dwe-visilab;L#q-FQ3gT4Km;ftp2.dilax.com;visilab14;Ttp4:VLiP14!;/rawdata;;;;;;ON;;
+Manor - Maus Freres;6;mausfreres.dilax.com;dwe20;mausfreres;DWE_MAUSFRERES_2012;postgresql01;dwe-mausfreres;xzyw8ymVvo_H;ftp2.dilax.com;mausfreres12;mausfreres12!?#;/rawdata;;;;;;ON;;
+1A Outlet;72;1aoutlet.dilax.com;dwe09;1aoutlet;DWE_1AOUTLET_2014;postgresql05;dwe-1aoutlet;DlDsC09QzT9dW;ftp2.dilax.com;1aoutlet;Ld#t-g5>8BHvc<;/rawdata;;;;;;ON;;
+KONEN;73;konen.dilax.com;dwe09;konen;DWE_KONEN_2014;postgresql05;dwe-konen;t@otg6hHbj4C;ftp2.dilax.com;konen;K4+%/!uH@aW7k5t;/rawdata;;;;;;ON;;
+Atlantis France;12;atlantis.dilax.com;dwe09;atlantis;DWE_ATLANTIS_2012;postgresql03;dwe-atlantis;tKxv3=tpqG$L;ftp2.dilax.com;atlantis;dilaxfr;/rawdata;;;;;;ON;;
+Atrium;4;atrium.dilax.com;dwe10;atrium ;DWE_ATRIUM_2012;postgresql01;dwe-atrium ;tbVgE4NYPem+;ftp2.dilax.com;atrium;atrium!2#;/rawdata;ftp2.dilax.com;baranov;TiSP4rta..;;;ON;1;4 CPUs seit 12.03.2015
+H&M;133;hm.dilax.com;dwe11;hm;DWE_HM_2016;postgresql05;dwe-hm;E=G9Kr-dbo8?;ftp2.dilax.com;hm;!HMFtP18VM!;/rawdata;ftp2.dilax.com;;;;;ON;1;
+HandM;1;handm.dilax.com;dwe11;handm;DWE_HANDM_2015;postgresql05;dwe-handm;E=G9Kr-dbo8?;ftp2.dilax.com;handm;handm!2#;/rawdata;ftp2.dilax.com;handmcustomer;WV1e8CSdZz9mzwIp;/;;ON;1;
+CMC;77;cmc.dilax.com;dwe12;cmc;DWE_CMC_2014;postgresql05;dwe-cmc;BIcPFBIGdyQou;ftp2.dilax.com;cmc;MKbS!zuA33hi2#l;/rawdata;;;;;;ON;;
+Kraft;45;kriegerbau.dilax.com;dwe12;kriegerbau;DWE_KRIEGERBAU_2013;postgresql01;dwe-kriegerbau;W6tfiLYfs-+s;ftp2.dilax.com;kraft;N9m73JHK;/rawdata;ftp2.dilax.com;kraftcustomer;Y5qa6KS5;/berlin-sachsendamm;;ON;;
+FOC Soltau;13;focsoltau.dilax.com;dwe13;focsoltau;DWE_FOCSOLTAU_2012;postgresql03;dwe-focsoltau;c-JGj3GHst87;ftp2.dilax.com;foc;foc!?#;/rawdata;;;;;;ON;;
+EOC Ochtrop;14;eocochtrup.dilax.com;dwe13;eocochtrup;DWE_EOCOCHTRUP_2012;postgresql03;dwe-eocochtrup;UzGM7hSuSD9aK;ftp2.dilax.com;eoc;eoc!?#;/rawdata;;;;;;ON;;
+TVOE;65;tvoe.dilax.com;dwe14;tvoe;DWE_TVOE_2014;postgresql01;dwe-tvoe;DBeVoTLK674#72#1!;ftp2.dilax.com;tboe;A2F=Xyyz;/rawdata;ftp2.dilax.com;tvoecustomer;CTria#170oPfD;/;;ON;1;
+Cambridge University;38;cu.dilax.com;dwe15;cu;DWE_CU_2013;postgresql05;dwe-cu;jvYx7e-DLuzT;ftp2.dilax.com;cambridgeuniversity;Wkwc!inCAMB4uni;/rawdata;;;;;;ON;;
+Telecolumbus;71;telecolumbus.dilax.com;dwe15;telecolumbus;DWE_TELECOLUMBUS_2014;postgresql05;dwe-telecolumbus;sLcVn6nmci-X;ftp2.dilax.com;telecolumbus;g90p6sxh4237lyJ;/rawdata;;;;;;ON;;
+Sales Enumeris;;sales-enumeris.dilax.com;dwe15;sales-enumeris;DWE_SALESENUMERIS_2013;postgresql05;dwe-salesdemo;n?bnX$?A$h7p;ftp2.dilax.com;user1: dwe-trunk;user1: Mmi1s!!!;;;;;;;OFF;;!!!scala Verzeichnis kopieren
+Sales Retail;;salesretail.dilax.com;dwe15;salesretail;DWE_SALESRETAIL_2013;postgresql01;dwe-salesdemo;n?bnX$?A$h7p;ftp2.dilax.com;sales_retail;sRt#13!;;;;;;;OFF;;
+Sales Shopping Center;;salesshoppingcenter.dilax.com;dwe15;salesshoppingcenter;DWE_SALESSHOPPINGCENTER_2013;postgresql03;dwe-salesdemo;n?bnX$?A$h7p;ftp2.dilax.com;sales-shopping;sSc#13!;;;;;;;OFF;;
+Fressnapf;80;fressnapf.dilax.com;dwe16;fressnapf;DWE_FRESSNAPF_2014;postgresql05;dwe-fressnapf;oMWrzx?HWK7T;ftp2.dilax.com;fressnapf;f77nAp326#44FFFYJe4;/rawdata;;;;;;ON;1;
+Jack Wolfskin;67;jackwolfskin.dilax.com;dwe18;jackwolfskin;DWE_JACKWOLFSKIN_2014;postgresql03;dwe-jackwolfskin ;?8utULG=QzvH;ftp2.dilax.com;jackwolfskin;175JCKIch-Da%;/rawdata;ftp2.dilax.com;jackwolfskincustomer;83RcWj33YRccK#%tgq;/;;ON;1;
+Thalia;68;thalia.dilax.com;dwe19;thalia;DWE_THALIA_2014;postgresql01;dwe-thalia;y6-6vKG8Lu3W;ftp2.dilax.com;thalia;WkWc!inBLN4thl;/rawdata;ftp2.dilax.com;thaliacustomer;CTaihl2#739kMsQ;/;;ON;1;
+BNP Paribas;82;bnpparibas.dilax.com;dwe15;bnpparibas;DWE_BNPPARIBAS_2015;postgresql01;dwe-bnpparibas;BqrjRQEE7MK%;ftp2.dilax.com;paribas;BnP75Paribas;/rawdata;;;;;;ON;;
+Münster Arkaden;87;muensterarkaden.dilax.com;dwe13;muensterarkaden;DWE_MUENSTERARKADEN_2015;postgresql03;dwe-muensterarkaden;acJgJ9U=E6TH;ftp2.dilax.com;muensterarcaden;R5)3j/Ge74W[)n:;/rawdata;;;;;;ON;;
+Flight Centre;92;flightcentre.dilax.com;dwe15;flightcentre;DWE_FLIGHTCENTRE_2015;postgresql05;dwe-flightcentre;q~8j8MqM9gvT;ftp2.dilax.com;flightcentre;2M#kQ6tolm7kj6sTB_;/rawdata;;;;;;ON;;
+Neuwiesen;118;neuwiesen.dilax.com;dwe08;neuwiesen;DWE_NEUWIESEN_2015;postgresql03;dwe-neuwiesen;v31c#DKgoSmoU9c)0k;ftp2.dilax.com;neuwiesen;NP4dCHiJ15!;/rawdata;;;;;;ON;;
+SKD (Staatliche Kunstsammlungen Dresden);94;skd.dilax.com;dwe02;skd;DWE_SKD_2015;postgresql03;dwe-skd;-bmwFFG\Ya7o;ftp2.dilax.com;dresdnerschloss;Q+uq#L_YEyTh-b6^;/rawdata;;;;;;ON;;Staatliche Kunstsammlungen Dresden
+Musée des Confluences;89;museedesconfluences.dilax.com;dwe02;confluences;DWE_CONFLUENCES_2015;postgresql01;dwe-confluences;r4C5ZQEW-y7D;ftp2.dilax.com;confluences;Musee2Lyon;/rawdata;;;;;;ON;;
+Autostadt Wolfsburg;96;autostadt-wolfsburg.dilax.com;dwe12;autostadt-wolfsburg;DWE_AUTOSTADT_2015;postgresql01;dwe-autostadt;+Vav+H%E67Fe2;ftp2.dilax.com;autostadt;LGR%_cCU(&=9+6cx;/rawdata;;;;;;ON;;
+Westfield;;westfield.dilax.com;dwe12;westfield;DWE_WESTFIELD_2015;postgresql01;dwe-westfield;i>#aH#G6Cq$J3;not ftp account;DUMMY-Account;not ftp account;not ftp account;;;;;;OFF;;
+ECE;97;ece.dilax.com;dwe06;ece;DWE_ECE_2015;postgresql03;dwe-ece;Q76HwnMWpt45;ftp2.dilax.com;ece;dDHyVdC7v.6qMGP5J;/rawdata;ece-ftp01.anx-cus.net;eceftp02;Anuleturi720;;;ON;1;
+IKEA AT;40;ikea.dilax.com;dwe16;ikea;DWE_IKEA_2015;postgresql05;dwe-ikea;vL&$&8J=48Ha;ftp2.dilax.com;ikea;sVp8EKT!3N;/rawdata;;;;;;ON;;
+Samsonite;99;samsonite.dilax.com;dwe06;samsonite;DWE_SAMSONITE_2015;postgresql05;dwe-samsonite;g9uiGXH>8<#t;ftp2.dilax.com;samsonite;SamSoNite!2016DiLAx;/rawdata;;;;;;ON;;
+Infracenter;109;infracenter.dilax.com;dwe16;infracenter;DWE_INFRACENTER_2015;postgresql05;dwe-infracenter;ZAtA674rzc6LqKeH;ftp2.dilax.com;infracenter15;D8Lie0uDePB!;/rawdata;;;;;;ON;;"former ""Threalaustria"""
+Unitim;101;unitim.dilax.com;dwe09;unitim;DWE_UNITIM_2015;postgresql05;dwe-unitim;mW8shDQrs4EASqd3;ftp2.dilax.com;unitim;LBp88YqH2t..;/rawdata;;;;;;ON;;
+Globetrotter;103;globetrotter.dilax.com;dwe06;globetrotter;DWE_GLOBETROTTER_2015;postgresql05;dwe-globetrotter;38aWm3j8ga9GtCMX;ftp2.dilax.com;globetrotter;m5y-EKUPv2Qc;/rawdata;;;;;;ON;;
+Arcadia Group;102;arcadia.dilax.com;dwe13;arcadia;DWE_ARCADIA_2015;postgresql01;dwe-arcadia;VtJ5Cw3PKuOi4i3b;ftp2.dilax.com;arcadia;m5d.HUG!8VPL;/rawdata;;;;;;OFF;1;
+Montabaur;107;fashionoutletmontabaur.dilax.com;dwe16;fashionoutletmontabaur;DWE_FASHIONOUTLETMONTABAUR_2016;postgresql01;dwe-fashionoutletmontabaur;7hyqjPkhaaFhpGBB;ftp2.dilax.com;fashionoutletmontabaur;R<}b4juPP9cXFEn2;/rawdata;;;;;;ON;;Fashion Outlet Montabaur
+Immofinanz;108;immofinanz.dilax.com;dwe16;immofinanz;DWE_IMMOFINANZ_2016;postgresql01;dwe-immofinanz;z0uHtx3ACln2tyds;ftp2.dilax.com;immofinanz16;EPiJ20164dOCSd!;/rawdata;;;;;;ON;;
+Flon;;flon.dilax.com;dwe12;flon;DWE_FLON_2016;postgresql01;dwe-flon;88rQ8uCWAXh2MQeY;ftp2.dilax.com;flon16;CtpdFmds1sa16!;/rawdata;;;;;;ON;;Customer Mobimo (CH)
+Booking;;booking.dilax.com;dwe15;booking;DWE_BOOKING_2016;postgresql01;dwe-booking;VFabGNk19M4JB2p5;ftp2.dilax.com;booking;3rs69FSPasaEk2jp;/rawdata;;;;;;OFF;;Demo-System PCS Sales (CU-like for UK)
+CITTI-Park;111;citti.dilax.com;dwe02;citti;DWE_CITTY_2016;postgresql01;dwe-citty;xc4MmLDrq6pQfNnh;ftp2.dilax.com;citty;FeWUc[Zdae%y&93V;/rawdata;;;;;;ON;;CITTI-Park Lübeck
+Birmingham Airport;114;birminghamairport.dilax.com;dwe02;birminghamairport;DWE_BIRMINGHAMAIRPORT_2016;postgresql03;dwe-birminghamairport;3i4y8QOKGCvmbz88;ftp2.dilax.com;birminghambhx;E-w.F9MQtx?6;/rawdata;;;;;;ON;;UK
+Liberty Woman;112;liberty-woman.dilax.com;dwe13;liberty-woman;DWE_LIBERTYWOMAN_2016;postgresql03;dwe-libertywoman;Kz7zHtEKhUWyGHmm;ftp2.dilax.com;libertywoman;PFsc5NY$%g!_MnD-;/rawdata;;;;;;ON;;'$' im FTP-PWD muss im FTP-Perlscript entwertet werden!!!
+Hyundai Spain;116;hyundai-spain.dilax.com;dwe09;hyundai-spain;DWE_HYUNDAISPAIN_2016;postgresql03;dwe-hyundaispain;Z5JX2qfMumqsC4vm;ftp2.dilax.com;hyundai;kV42xh+!L&LGsg8%;/rawdata;;;;;;ON;;Spain
+Ronesans Turkey;;ronesans.dilax.com;dwe12;ronesans;DWE_RONESANS_2016;postgresql05;dwe-ronesans;P91lQnbHRS0Z3FDM;ftp2.dilax.com;ronesans;"xs=rz7Q2-EFWn;2f";/rawdata;;;;;;ON;;Turkey
+Keller Sports;123;keller-sports.dilax.com;dwe05;keller-sports;DWE_KELLERSPORTS_2016;postgresql01;dwe-kellersports;Dt3yvkEfhKN48LmY;ftp2.dilax.com;kellersports;kb6kqaMhzF!E9MP;/rawdata;;;;;;ON;;
+REALM;122;realm.dilax.com;dwe06;realm;DWE_REALM_2016;postgresql01;dwe-realm;RYmI5rxrRSxn31R;ftp2.dilax.com;realmlakev;HgWRWdz9.sE4;/rawdata;;;;;;ON;;UK (trial)
+Birkenstock;125;birkenstock.dilax.com;dwe09;birkenstock;DWE_BIRKENSTOCK_2016;postgresql03;dwe-birkenstock;QQGyyCzwY2xIVcZy;ftp2.dilax.com;birkenstock;am0BYfvio2qSYJVo;/rawdata;;;;;;ON;;
+Eurotrade;110;---hosted by customer---;;eurotrade;---hosted by customer--;;---hosted by customer---;;;;;;;;;;;ON;;
+Knauber;134;knauber.dilax.com;dwe01;knauber;DWE_KNAUBER_2016;postgresql05;dwe-knauber;uKlMQQ5pazDaC8Tg;ftp2.dilax.com;knauber;0lL1p9VueXdCIfRX;/rawdata;ftp2.dilax.com;knaubercustomer;DLPtiI4bywbwl0Cy;/;;ON;;
+Stadthalle NES;;stadthalle-nes.dilax.com;dwe01;stadthalle-nes;DWE_STADTHALLENES_2016;postgresql01;dwe-stadthallenes;VWMPq86j4VBr7ni9;ftp2.dilax.com;stadthallenes;5Uw15VX3JZv4pbrE;/rawdata;;;;;;OFF;;
+Möbelix;127;moebelix.dilax.com;dwe05;moebelix;DWE_MOEBELIX_2016;postgresql03;dwe-moebelix;Nd305KHsiqyNH78z;ftp2.dilax.com;moebelix;xFh4EKT!9N;/rawdata;ftp2.dilax.com;moebelixcustomer;1teoctEm(d.vqa4L;/upload;;ON;;AT (Trial)
+Animal;121;animal.dilax.com;dwe21;animal;DWE_ANIMAL_2016;postgresql05;dwe-animal;dw3-4n1m4l;ftp2.dilax.com;animal;kpRHKjYM+n88;/rawdata;;;;;;ON;;
+Valora;128;valora.dilax.com;dwe21;valora;DWE_VALORA_2016;postgresql05;dwe-valora;dw3-v4l0r4;ftp2.dilax.com;valora;xY!vN#WCZ2gkB]Cm;/rawdata;;;;;;ON;;
+Mensing;132;mensing.dilax.com;dwe21;mensing;DWE_MENSING_2016;postgresql01;dwe-mensing;CZdY1nlVqCq0bMMs;ftp2.dilax.com;mensing;ZnApZvz<9C[[U-Hx;/rawdata;ftp2.dilax.com;mensingcustomer;GWvR*eqe*6ke;/posdata;;ON;;
+VAG Nürnberg;130;vagnuernberg.dilax.com;dwe21;vagnuernberg;DWE_VAGNUERNBERG_2016;postgresql03;dwe-vagnuernberg;dn7rnyN7pULOPpP2;ftp2.dilax.com;vagnuernberg;xVf8EKD!9P;/rawdata;;;;;;ON;;Trial
+Blechen-Carré;131;blechen-carre.dilax.com;dwe21;blechen-carre;DWE_BLECHENCARRE_2016;postgresql05;dwe-blechencarre;cqjWs1YBK2Nku8E5;ftp2.dilax.com;blechencarre;7GXo682Jz4a3Izli;/rawdata;;;;;;ON;;
+Bibliotheque Clermont;124;bibliothequeclermont.dilax.com;dwe21;bibliothequeclermont;DWE_BIBLIOTHEQUECLERMONT_2016;postgresql01;dwe-bibliothequeclermont;o5Is8N69I92VxtIi;ftp2.dilax.com;biblioclermont;"xim04e:CT85Za;Wxfv";/rawdata;;;;;;ON;;
+Leiner;135;leiner.dilax.com;dwe06;leiner;DWE_LEINER_2016;postgresql03;dwe-leiner;EbLHW9rYFdW0fTbk;ftp2.dilax.com;leiner;2jqdu7)dADRy!Y;/rawdata;;;;;;ON;;AT
+MyBet;;mybet.dilax.com;dwe21;mybet;DWE_MYBET_2016;postgresql03;dwe-mybet;X7bS6Wm9hWRTB5Hf;ftp2.dilax.com;mybet;+rUsTeP+#22eH$7U5Pef;/rawdata;;;;;;OFF;;
+Holy Fashion;136;holyfashiongroup.dilax.com;dwe17;holyfashiongroup;DWE_HOLYFASHIONGROUP_2016;postgresql05;dwe-holyfashiongroup;0KxuySrAkxzUMA8N;ftp2.dilax.com;holyfashion;UvfTbLtw9fk!3gPLm;/rawdata;;;;;;ON;;
+FNAC;137;fnac.dilax.com;dwe17;fnac;DWE_FNAC_2016;postgresql03;dwe-fnac;gazRjwx1bDtKbfq7;ftp2.dilax.com;fnac;d!Lax4fNaC;/rawdata;;;;;;ON;;CH / FR
