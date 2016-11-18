@@ -26,10 +26,6 @@ def write_to_db():
         raise
 
 
-def job():
-    print "coucou {}".format(time.time())
-
-
 def scheduled_task():
     schedule.every().hour.do(write_to_db)
     while 1:
