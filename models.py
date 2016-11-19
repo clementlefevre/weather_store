@@ -10,6 +10,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.engine.url import URL
 from sqlalchemy.orm import sessionmaker, relationship
 from sqlalchemy.exc import IntegrityError, OperationalError
+
 import psycopg2
 
 import settings
@@ -50,10 +51,16 @@ class DB_tool(object):
     def store_weather_data(self, weather_data):
 
         try:
+            engine = db_connect()
+            self.Session = sessionmaker(bind=engine)
             session = self.Session()
-            result = session.execute("select 'OK'")
+            result = session.execute("select 'OK'")  # and retry
+
+            # session = self.Session()
+            # result = session.execute("select 'OK'")
 
         except OperationalError as error:
+            print "oupssss"
             print error.message
             engine = db_connect()
             self.Session = sessionmaker(bind=engine)
@@ -65,6 +72,7 @@ class DB_tool(object):
             session.commit()
 
         except IntegrityError as ex:
+
             session.rollback()
         except Exception as ex:
             template = "An exception of type {0} occured. Arguments:\n{1!r}"
@@ -74,6 +82,7 @@ class DB_tool(object):
             raise
         finally:
             session.close()
+            engine.dispose()
 
 
 def db_connect():
