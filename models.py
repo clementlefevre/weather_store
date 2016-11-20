@@ -56,8 +56,7 @@ class DB_tool(object):
             session = self.Session()
             result = session.execute("select 'OK'")  # and retry
 
-            # session = self.Session()
-            # result = session.execute("select 'OK'")
+
 
         except OperationalError as error:
             print "oupssss"
