@@ -56,11 +56,8 @@ class DB_tool(object):
             session = self.Session()
             result = session.execute("select 'OK'")  # and retry
 
-
-
         except OperationalError as error:
-            print "oupssss"
-            print error.message
+            logging.error("Error with DB: {}").format(error.message)
             engine = db_connect()
             self.Session = sessionmaker(bind=engine)
             session = self.Session()
@@ -76,7 +73,7 @@ class DB_tool(object):
         except Exception as ex:
             template = "An exception of type {0} occured. Arguments:\n{1!r}"
             message = template.format(type(ex).__name__, ex.args)
-            print message
+            logging.error(message)
             session.rollback()
             raise
         finally:
