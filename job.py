@@ -35,6 +35,5 @@ def scheduled_task():
         time.sleep(1)
 
 if __name__ == "__main__":
-    logging.info("TEST")
-    # write_to_db()
-    # scheduled_task()
+    write_to_db()
+    scheduled_task()
