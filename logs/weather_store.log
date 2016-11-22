@@ -25,3 +25,42 @@
 2016-11-21 17:43:23,945 [INFO ]  Coucou c est moi
 2016-11-21 17:49:00,985 [INFO ]  TEST
 2016-11-21 17:49:00,985 [INFO ]  TEST
+2016-11-22 11:10:05,370 [ERROR]  JOB Start
+2016-11-22 11:10:05,495 [INFO ]  JOB Finished
+2016-11-22 11:13:14,982 [ERROR]  JOB Start
+2016-11-22 11:14:09,946 [INFO ]  JOB Finished
+2016-11-22 11:16:47,314 [ERROR]  JOB Start
+2016-11-22 11:16:47,465 [ERROR]  An exception of type IntegrityError occured. Arguments:
+('(psycopg2.IntegrityError) duplicate key value violates unique constraint "_update_time_uc"\nDETAIL:  Key (site_id, updated, "dateTime", data_type)=(285, 2016-11-22 11:00:00, 2016-11-21 01:00:00, observation) already exists.\n',)
+2016-11-22 11:16:47,465 [ERROR]  (psycopg2.IntegrityError) duplicate key value violates unique constraint "_update_time_uc"
+DETAIL:  Key (site_id, updated, "dateTime", data_type)=(285, 2016-11-22 11:00:00, 2016-11-21 01:00:00, observation) already exists.
+
+2016-11-22 11:16:47,466 [ERROR]  (psycopg2.IntegrityError) duplicate key value violates unique constraint "_update_time_uc"
+DETAIL:  Key (site_id, updated, "dateTime", data_type)=(285, 2016-11-22 11:00:00, 2016-11-21 01:00:00, observation) already exists.
+
+2016-11-22 11:16:47,468 [ERROR]  ('(psycopg2.IntegrityError) duplicate key value violates unique constraint "_update_time_uc"\nDETAIL:  Key (site_id, updated, "dateTime", data_type)=(285, 2016-11-22 11:00:00, 2016-11-21 01:00:00, observation) already exists.\n',)
+2016-11-22 11:19:06,868 [ERROR]  JOB Start
+2016-11-22 11:19:45,154 [INFO ]  JOB Finished
+2016-11-22 11:19:45,156 [ERROR]  
+2016-11-22 11:19:45,156 [ERROR]  ()
+2016-11-22 11:20:11,865 [INFO ]  JOB Start
+2016-11-22 11:21:36,101 [INFO ]  JOB Start
+2016-11-22 11:21:38,435 [INFO ]  JOB Finished
+2016-11-22 11:21:38,435 [ERROR]  
+2016-11-22 11:21:38,435 [ERROR]  ()
+2016-11-22 11:23:23,748 [INFO ]  JOB Start
+2016-11-22 11:23:26,183 [INFO ]  JOB Finished
+2016-11-22 11:23:42,351 [INFO ]  JOB Start
+2016-11-22 11:23:44,790 [INFO ]  JOB Finished
+2016-11-22 11:23:44,790 [ERROR]  
+2016-11-22 11:23:44,790 [ERROR]  ()
+2016-11-22 11:23:57,859 [INFO ]  JOB Start
+2016-11-22 11:24:00,195 [INFO ]  JOB Finished
+2016-11-22 11:28:50,940 [INFO ]  JOB Start
+2016-11-22 11:28:54,278 [INFO ]  JOB Finished
+2016-11-22 11:28:54,278 [ERROR]  
+2016-11-22 11:28:54,279 [ERROR]  ()
+2016-11-22 11:29:52,541 [INFO ]  JOB Start
+2016-11-22 11:29:54,882 [INFO ]  JOB Finished
+2016-11-22 11:30:13,106 [INFO ]  JOB Start
+2016-11-22 11:30:15,441 [INFO ]  JOB Finished

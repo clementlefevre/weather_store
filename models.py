@@ -10,6 +10,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.engine.url import URL
 from sqlalchemy.orm import sessionmaker, relationship
 from sqlalchemy.exc import IntegrityError, OperationalError
+from functools import wraps
 
 import psycopg2
 
@@ -23,53 +24,62 @@ psycopg2.extensions.register_type(psycopg2.extensions.UNICODEARRAY)
 DeclarativeBase = declarative_base()
 
 
+def db_connect():
+    """Performs database connection using database settings from settings.py.
+    Returns sqlalchemy engine instance.
+
+    """
+    return create_engine(URL(**settings.DATABASE))
+
+
 class DB_tool(object):
     """Livingsocial pipeline for storing scraped items in the database"""
 
+
     def __init__(self):
-        """Initializes database connection and sessionmaker.
+        self.create_table()
 
-        Creates all table.
 
-        """
+    def create_table(self):
         engine = db_connect()
-        create_table(engine)
         self.Session = sessionmaker(bind=engine)
+        session = self.Session()
+        DeclarativeBase.metadata.create_all(engine, checkfirst=True)
+        session.close()
+        engine.dispose()
+  
 
     def get_sites(self):
+        engine = db_connect()
+        self.Session = sessionmaker(bind=engine)
         session = self.Session()
-        return session.query(Site).all()
+        result =  session.query(Site).all()
+        session.close()
+        engine.dispose()
+        return result
 
     def delete_weather_data(self):
+        engine = db_connect()
+        self.Session = sessionmaker(bind=engine)
         session = self.Session()
         session.query(WeatherData).delete()
+        session.close()
+        engine.dispose()
 
     def get_weather_data(self):
-        session = self.Session()
         return session.query(WeatherData).all()
 
     def store_weather_data(self, weather_data):
-
+        engine = db_connect()
+        self.Session = sessionmaker(bind=engine)
+        session = self.Session()
+        session.add(weather_data)
         try:
-            engine = db_connect()
-            self.Session = sessionmaker(bind=engine)
-            session = self.Session()
-            result = session.execute("select 'OK'")  # and retry
-
-        except OperationalError as error:
-            logging.error("Error with DB: {}").format(error.message)
-            engine = db_connect()
-            self.Session = sessionmaker(bind=engine)
-            session = self.Session()
-            result = session.execute("select 'OK'")  # and retry
-
-        try:
-            session.add(weather_data)
             session.commit()
-
+            session.close()
         except IntegrityError as ex:
-
             session.rollback()
+            
         except Exception as ex:
             template = "An exception of type {0} occured. Arguments:\n{1!r}"
             message = template.format(type(ex).__name__, ex.args)
@@ -80,18 +90,7 @@ class DB_tool(object):
             session.close()
             engine.dispose()
 
-
-def db_connect():
-    """Performs database connection using database settings from settings.py.
-    Returns sqlalchemy engine instance.
-
-    """
-    return create_engine(URL(**settings.DATABASE))
-
-
-def create_table(engine):
-    DeclarativeBase.metadata.create_all(engine, checkfirst=True)
-
+    
 
 class Site(DeclarativeBase):
 

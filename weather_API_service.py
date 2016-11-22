@@ -10,7 +10,7 @@ db_tool = models.DB_tool()
 
 
 def copy_API_data_to_db(site):
-    print site
+   
     data, updated = retrieve_data(site)
     weather_data = {}
     weather_data['site_id'] = site.id

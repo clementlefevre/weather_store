@@ -13,7 +13,7 @@ def write_to_db():
     db_tool = DB_tool()
     sites = db_tool.get_sites()
     print "sites found :{}".format(len(sites))
-    logging.error("JOB Start")
+    logging.info("JOB Start")
     try:
         p = Pool(processes=10)
         result = p.map(copy_API_data_to_db, sites)
@@ -29,11 +29,16 @@ def write_to_db():
 
 
 def scheduled_task():
-    schedule.every(1).hour.do(write_to_db)
+    schedule.every(interval=1).hours.do(write_to_db)
     while 1:
         schedule.run_pending()
         time.sleep(1)
 
 if __name__ == "__main__":
-    write_to_db()
-    scheduled_task()
+    try:
+        write_to_db()
+        scheduled_task()
+    except Exception as e:
+        logging.error(e.message)
+        logging.error(e.args)
+        raise

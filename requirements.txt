@@ -1,0 +1,4 @@
+psycopg2==2.6.2
+python_dateutil==2.6.0
+schedule==0.3.2
+SQLAlchemy==1.1.4
