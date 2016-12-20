@@ -61,6 +61,13 @@ def persist_weather(data, weather_data):
         weather_data_db = models.WeatherData(**weather_data_hour)
         db_tool.store_weather_data(weather_data_db)
 
+    for d in data['forecast']['hours']:
+        weather_data['period'] = 'hour'
+        weather_data_hour = add_observation(d, weather_data)
+        weather_data_hour['data_type'] = 'forecast'
+        weather_data_db = models.WeatherData(**weather_data_hour)
+        db_tool.store_weather_data(weather_data_db)
+
 
 def add_observation(obs_data, weather_data):
 
