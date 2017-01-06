@@ -117,7 +117,7 @@ class WeatherData(DeclarativeBase):
     period = Column('period', String, nullable=False)
     data_type = Column('data_type', String, nullable=False)
     updated = Column('updated', DateTime, nullable=False)
-    dateTime = Column('dateTime', DateTime, nullable=False)
+    dateTime = Column('timestamp', DateTime, nullable=False)
     tt = Column("tt", Integer, nullable=True)
     tn = Column("tn", Integer, nullable=True)
     tx = Column("tx", Integer, nullable=True)
@@ -128,4 +128,4 @@ class WeatherData(DeclarativeBase):
     site_id = Column(Integer, ForeignKey('sites.id'))
 
     __table_args__ = (UniqueConstraint(
-        'site_id', 'updated', 'dateTime', 'data_type', name='_update_time_uc'),)
+        'site_id', 'updated', 'timestamp', 'data_type', name='_update_time_uc'),)

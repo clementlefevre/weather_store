@@ -1,16 +1,14 @@
-import urllib2
 import json
-import models
 import settings
-
+import urllib2
 from dateutil import parser
 
+import models
 
 db_tool = models.DB_tool()
 
 
 def copy_API_data_to_db(site):
-   
     data, updated = retrieve_data(site)
     weather_data = {}
     weather_data['site_id'] = site.id
@@ -26,7 +24,7 @@ def retrieve_data(site):
                                + str(site.longitude))
     data = json.loads(response.read())
     data = data['LocationWeather']
-    updated = parser.parse(data['latestobservation']['latests'][0]['dateTime'])
+    updated = parser.parse(data['latestobservation']['latests'][0]['timestamp'])
     return data, updated
 
 
@@ -70,13 +68,12 @@ def persist_weather(data, weather_data):
 
 
 def add_observation(obs_data, weather_data):
-
     result = init_missing_values(obs_data)
 
     if weather_data['period'] == 'hour':
-        obs_data['dateTime'] = parser.parse(obs_data['dateTime'])
+        obs_data['timestamp'] = parser.parse(obs_data['dateTime'])
     elif weather_data['period'] == 'day':
-        obs_data['dateTime'] = parser.parse(obs_data['date'])
+        obs_data['timestamp'] = parser.parse(obs_data['date'])
         obs_data.pop('date', None)
 
     result.update(obs_data)
